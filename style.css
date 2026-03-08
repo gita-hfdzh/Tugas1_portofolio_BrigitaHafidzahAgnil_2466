@@ -1,7 +1,11 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background: linear-gradient(135deg, #eef3f8, #f8fbff);
+    background-color: #eef3f8;
+    background-image: 
+        radial-gradient(circle at 25% 25%, #dfe7f1 10%, transparent 10%),
+        radial-gradient(circle at 75% 75%, #dfe7f1 10%, transparent 10%);
+    background-size: 120px 120px;
 }
 
 nav {
